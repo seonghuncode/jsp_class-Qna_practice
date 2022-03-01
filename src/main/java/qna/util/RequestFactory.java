@@ -53,6 +53,18 @@ public class RequestFactory {
 			}
 
 		}
+		
+		
+		public HttpServletRequest getReq() {
+			return this.req;
+		}
+		
+		
+		public HttpServletResponse getResp() {
+			return this.resp;
+		}
+		
+		
 	}
 		
 		

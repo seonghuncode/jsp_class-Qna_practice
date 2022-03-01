@@ -8,7 +8,24 @@
 </head>
 <body>
 
-	<p> Hello World </p>
+	<div>
+		<h1>질문하기</h1>   
+	</div>
+
+	<div>
+		<form action="/question/add" method="post">
+		<div>
+			<input type = "text"name="title" />
+		</div>
+		<div>
+			<input type = "text"name="body"/>
+		</div>
+		<div>
+			<button type="submit">질문하기</button>
+			<button type="button"> 취소</button>
+		</div>
+		</form>
+	</div>
 
 </body>
 </html>
